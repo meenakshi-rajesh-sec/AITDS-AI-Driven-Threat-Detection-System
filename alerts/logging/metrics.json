@@ -1,0 +1,58 @@
+{
+  "total_alerts": 5,
+  "by_severity": {
+    "CRITICAL": 2,
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "NONE": 0
+  },
+  "by_type": {
+    "DoS Attack": 1,
+    "Port Scan": 1,
+    "System Test - INFO": 1,
+    "System Test - MEDIUM": 1,
+    "System Test - CRITICAL": 1
+  },
+  "by_source": {
+    "Supervised Model": 1,
+    "Unsupervised Model": 1,
+    "Alert Manager": 3
+  },
+  "by_decision": {
+    "KNOWN_ATTACK": 1,
+    "SUSPICIOUS_ANOMALY": 1,
+    "TEST": 3
+  },
+  "timeline": [
+    {
+      "timestamp": "2026-01-24T02:54:29.522880",
+      "type": "DoS Attack",
+      "severity": "CRITICAL"
+    },
+    {
+      "timestamp": "2026-01-24T02:54:29.522906",
+      "type": "Port Scan",
+      "severity": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-01-24T02:56:18.121122",
+      "type": "System Test - INFO",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "2026-01-24T02:56:18.121140",
+      "type": "System Test - MEDIUM",
+      "severity": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-01-24T02:56:18.121143",
+      "type": "System Test - CRITICAL",
+      "severity": "CRITICAL"
+    }
+  ],
+  "start_time": 1769241269.5233068,
+  "last_alert": "2026-01-24T02:56:18.121143",
+  "uptime_seconds": 112.14432334899902,
+  "alerts_per_hour": 160.50745559347712
+}

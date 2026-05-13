@@ -1,0 +1,6 @@
+timestamp,system,type,severity,decision,source,confidence,anomaly_score,risk_level,description
+2026-01-24T02:54:29.522880,AITDS,DoS Attack,CRITICAL,KNOWN_ATTACK,Supervised Model,0.97,-0.89,4,High volume traffic flood detected
+2026-01-24T02:54:29.522906,AITDS,Port Scan,MEDIUM,SUSPICIOUS_ANOMALY,Unsupervised Model,,-0.42,2,Multiple port connection attempts
+2026-01-24T02:56:18.121122,AITDS,System Test - INFO,INFO,TEST,Alert Manager,1.0,0.1,0,Testing INFO level alert channel connectivity
+2026-01-24T02:56:18.121140,AITDS,System Test - MEDIUM,MEDIUM,TEST,Alert Manager,0.85,-0.35,2,Testing MEDIUM severity alert channel connectivity
+2026-01-24T02:56:18.121143,AITDS,System Test - CRITICAL,CRITICAL,TEST,Alert Manager,0.98,-0.92,4,Testing CRITICAL severity alert channel connectivity
