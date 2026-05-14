@@ -35,7 +35,7 @@ class AlertManager:
     
     # Configuration
     DEFAULT_CHANNELS = ["console", "file", "discord"]
-    DISCORD_WEBHOOK = "https://discordapp.com/api/webhooks/1459445026483343647/6oVMRDzUYWgFRrSE_GUXyr-N9kxfrlgpeUJBNznXEgrkvTDbQEoFQS_lxsYjjNyspZgM"
+    DISCORD_WEBHOOK = "https://discordapp.com/api/webhooks/YOUR_DISCORD_WEBHOOK_URL"
     
     def __init__(self, channels: Optional[List[str]] = None, 
                  enable_discord: bool = True,
