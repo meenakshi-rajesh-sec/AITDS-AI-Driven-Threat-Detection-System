@@ -313,7 +313,7 @@ def send_bulk_alerts(alerts, webhook_url, delay=1.0):
 # ===============================
 if __name__ == "__main__":
     # YOUR DISCORD WEBHOOK
-    YOUR_WEBHOOK = "https://discordapp.com/api/webhooks/1459445026483343647/6oVMRDzUYWgFRrSE_GUXyr-N9kxfrlgpeUJBNznXEgrkvTDbQEoFQS_lxsYjjNyspZgM"
+    YOUR_WEBHOOK = "https://discordapp.com/api/webhooks/YOUR_WEBHOOK_URL"
     
     # Test the webhook
     test_discord_webhook(YOUR_WEBHOOK)
